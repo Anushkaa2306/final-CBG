@@ -47,7 +47,7 @@ export default function SparePartsSection() {
   // Handle spare parts request - opens Google Forms
   const handleSparePartsRequest = () => {
     // You can replace this with your actual Google Form URL
-    const googleFormUrl = 'https://forms.google.com/create';
+    const googleFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdix6DiTDPM-J86HjQvedVxtZxenClFZVr4n--qJPHQbg5Bww/viewform?usp=preview';
     window.open(googleFormUrl, '_blank');
   };
 

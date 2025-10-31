@@ -4,7 +4,7 @@ import { ArrowLeft, Wrench } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Parts() {
-  const googleFormUrl = "https://forms.google.com/create"; // same as on Home SparePartsSection
+  const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdix6DiTDPM-J86HjQvedVxtZxenClFZVr4n--qJPHQbg5Bww/viewform?usp=preview"; // same as on Home SparePartsSection
 
   const openForm = () => {
     window.open(googleFormUrl, "_blank");

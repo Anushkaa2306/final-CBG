@@ -31,7 +31,7 @@ export default function ServiceCard({ service, onBookNow }: ServiceCardProps) {
   const { title, price, originalPrice, discount, icon: IconComponent, features, isHighlighted } = service;
 
   return (
-    <Card className={`relative border-2 hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:-translate-y-1 sm:hover:-translate-y-2 hover:scale-105 transform ${
+    <Card className={`relative  hover:border-primary/50 transition-all duration-500 hover:shadow-xl hover:-translate-y-1 sm:hover:-translate-y-2 hover:scale-105 transform ${
       isHighlighted ? 'border-primary ring-2 ring-primary/20' : ''
     }`}>
 
@@ -79,6 +79,7 @@ export default function ServiceCard({ service, onBookNow }: ServiceCardProps) {
       <CardFooter className="px-4 sm:px-6 pt-3 sm:pt-6">
         <Button
           className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg transform text-sm sm:text-base py-2 sm:py-3"
+          variant={isHighlighted ? "default" : "outline"}
           onClick={onBookNow}
         >
           Book Now

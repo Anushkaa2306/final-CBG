@@ -81,7 +81,7 @@ export default function PricingSection() {
     {
       title: "Commercial Vehicles",
       price: "₹750",
-      originalPrice: "��2000",
+      originalPrice: "2000",
       discount: "Launch Offer — Limited Time",
       icon: Truck,
       features: [
